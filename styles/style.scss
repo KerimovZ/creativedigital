@@ -1,0 +1,222 @@
+@import "_bootstrap";
+@import "slick.css";
+@import "fonts.css";
+@import "slick-theme";
+
+.ba-header {
+    background: url(../images/header.jpg) 0 0 no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+
+
+.ba-navi__list {
+    display: inline-block;
+    padding: 0 30px;
+    font-family: "ProximaNova";
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.ba-header__title {
+    text-align: center;
+    padding-top: 325px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "ProximaNova";
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.ba-header__info {
+    text-align: center;
+    padding-bottom: 500px;
+    color: #fff;
+    font-family: "PTSans";
+    font-weight: italic;
+    font-size: 30px;
+}
+
+.ba-navi__list a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    &:hover {
+        border-bottom: 2px solid #000;
+        transition: all .1s ease-in;
+    }
+}
+
+.ba-about {
+    background-color: #ebebeb;
+    padding-top: 120px;
+}
+
+.ba-about-bg {
+    background: url(../images/about-bg.png) 0 0 no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.ba-about__info {
+    color: #fefbfc;
+    text-transform: uppercase;
+}
+
+
+
+.ba-about__text {
+    color: #b5b2b3;
+    padding: 80px 120px;
+    font-family: "PTsans Regular";
+}
+
+.ba-about-bt {
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #000;
+    width: 200px;
+    height: 45px;
+    margin-left: 300px;
+    border-radius: 0;
+    color: #a2a0a1;
+}
+
+.ba-services {
+    background-color: #ebebeb;
+    padding-top: 120px;
+}
+
+.ba-services-bg {
+    background: url(../images/borat.png) 0 0 no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+blockquote {
+    border: none;
+}
+
+.ba-services-color {
+    background-color: #dbdbdb;
+    height: 400px;
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 25%;
+    text-align: center;
+}
+
+.ba-services-white {
+    height: 400px;
+    position: relative;
+}
+
+.wrapper2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 12%;
+    text-align: center;
+}
+
+.ba-services-title {
+    font-family: "ProximaNova";
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+
+.ba-services-title2 {
+    font-family: "ProximaNova";
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.ba-services-title__text2 {
+    padding-top: 120px;
+    color: #fff;
+}
+
+.ba-work {
+    background: url(../images/work-bg.png) 0 0 no-repeat;
+    background-size: cover;
+}
+
+.wrap {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.ba-slider {
+    padding-top: 60px;
+    
+    & img {
+        margin: 0 auto;
+    }
+}
+.ba-slider__controls {
+    position: relative;
+}
+
+.ba-slider__arrow--left {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.wra {
+    background-color: #fff;
+    text-align: center;
+    & img {
+        position: relative;
+        text-align: center;
+    }
+}
+
+.ba-team {
+    background-color: #ebebeb;
+}
+
+.wrappp {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#map {
+    height: 900px;
+    width: 100%;
+}
+
+.ba-foot {
+    padding-top: 80px;
+    background-color: #9f9acf;
+}
+
+.ba-foot__team {
+    text-align: center;
+}
+
+.ba-foot-list li {
+    display: inline-block;
+    padding: 0 30px;
+}
